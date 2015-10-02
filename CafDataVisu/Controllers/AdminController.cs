@@ -11,6 +11,8 @@ using System.Collections.Specialized;
 using Newtonsoft.Json;
 using System.Web.Mvc;
 using Newtonsoft.Json.Linq;
+using CafDataVisu.Models;
+using System.Web.Caching;
 
 namespace CafDataVisu.Controllers
 {
@@ -18,6 +20,15 @@ namespace CafDataVisu.Controllers
     {
         string clientId = "768ce687-cc5c-4ddb-8eac-8298edb354a3";
         string clientSecret = "ny94x+Uo9nf1XJnoGkyuZSe4MCTJbEIH02NF5PSmauc=";
+
+        string powerbiapiUrl = "https://analysis.windows.net/powerbi/api";
+
+        string responseUri = "http://localhost:44307/Admin/TreatResponse";
+
+        //Redirect uri must match the redirect_uri used when requesting Authorization code.
+        string authorityUri = "https://login.windows.net/common/oauth2/authorize/";
+
+        Uri baseAddress = new Uri("https://api.powerbi.com/");
 
         public ActionResult Index()
         {
@@ -34,10 +45,10 @@ namespace CafDataVisu.Controllers
                 {"client_id", clientId},
 
                 //Resource uri to the Power BI resource to be authorized
-                {"resource", "https://analysis.windows.net/powerbi/api"},
+                {"resource", powerbiapiUrl},
 
                 //After user authenticates, Azure AD will redirect back to the web app
-                {"redirect_uri", "http://localhost:44307/Admin/TreatResponse"}
+                {"redirect_uri", responseUri}
              };
 
             //Create sign-in query string
@@ -51,13 +62,98 @@ namespace CafDataVisu.Controllers
             return Redirect(String.Format("{0}?{1}", authorityUri, queryString));
         }
 
-        public ActionResult ListGroup()
+        public ActionResult ListTiles(string groupName)
         {
-            var baseAddress = new Uri("https://api.powerbi.com/");
+            List<DashBoard> dashboards = ListGroupDashboards(groupName);
+
+            return View(dashboards);
+        }
+
+        private List<DashBoard> ListGroupDashboards(string groupName)
+        {
+            string groupId = GetGroupId(groupName);
+
+            List<DashBoard> res = new List<DashBoard>();
 
             using (var httpClient = new HttpClient { BaseAddress = baseAddress })
             {
-                AuthenticationResult token = (Session["authResult"]) as AuthenticationResult;
+                AuthenticationResult token = (this.HttpContext.Cache["authResult"] ) as AuthenticationResult;
+
+                httpClient.DefaultRequestHeaders.TryAddWithoutValidation("authorization", "Bearer " + token.AccessToken);
+
+                Task<HttpResponseMessage> t = httpClient.GetAsync("beta/myorg/groups/" + groupId + "/dashboards");
+
+                t.Wait();
+
+                var response = (HttpResponseMessage)(t.Result);
+
+                var t2 = response.Content.ReadAsStringAsync();
+
+                t2.Wait();
+
+                dynamic dyn = JObject.Parse(t2.Result);
+
+                for (int i = 0; i < dyn.value.Count; i++)
+                {
+
+                    var newD = new DashBoard()
+                    {
+                        GroupId = groupId,
+                        GroupName = groupName,
+                        Id = dyn.value[i].id,
+                        Name = dyn.value[i].displayName
+                    };
+
+                    newD.Tiles = ListTilesForDashboard(dyn.value[i].id.ToString(), groupId);
+
+                    res.Add(newD);
+                }
+            }
+            return res;
+        }
+
+        private List<Tile> ListTilesForDashboard(string dashBoardId, string groupId)
+        {
+            List<Tile> res = new List<Tile>();
+
+            using (var httpClient = new HttpClient { BaseAddress = baseAddress })
+            {
+                AuthenticationResult token = (this.HttpContext.Cache["authResult"] ) as AuthenticationResult;
+
+                httpClient.DefaultRequestHeaders.TryAddWithoutValidation("authorization", "Bearer " + token.AccessToken);
+
+                Task<HttpResponseMessage> t = httpClient.GetAsync("beta/myorg/groups/"+groupId+"/dashboards/"+ dashBoardId + "/tiles");
+
+                t.Wait();
+
+                var response = (HttpResponseMessage)(t.Result);
+
+                var t2 = response.Content.ReadAsStringAsync();
+
+                t2.Wait();
+
+                dynamic dyn = JObject.Parse(t2.Result);
+
+                for (int i = 0; i < dyn.value.Count; i++)
+                {
+                    res.Add(new Tile()
+                    {
+                        Id = dyn.value[i].id,
+                        Name = dyn.value[i].title,
+                    }
+                    );
+                }
+            }
+            return res;
+        }
+
+        private string GetGroupId(string groupName)
+        {
+            string groupId = string.Empty;
+
+            using (var httpClient = new HttpClient { BaseAddress = baseAddress })
+            {
+                AuthenticationResult token = (this.HttpContext.Cache["authResult"] ) as AuthenticationResult;
 
                 httpClient.DefaultRequestHeaders.TryAddWithoutValidation("authorization", "Bearer " + token.AccessToken);
 
@@ -71,64 +167,20 @@ namespace CafDataVisu.Controllers
 
                 t2.Wait();
 
-                var content = (t2.Result).ToString();
+                dynamic dyn = JObject.Parse(t2.Result);
+
+                for (int i = 0; i < dyn.value.Count; i++)
+                {
+                    if (dyn.value[0].name == groupName)
+                        groupId = dyn.value[0].id;
+                }
             }
 
-            return View();
-        }
-
-        public ActionResult GetTile()
-        {
-
-            //var baseAddress = new Uri("https://api.powerbi.com/");
-            var baseAdressDebug = "http://private-anon-dd2e084e9-powerbi.apiary-proxy.com";
-            string tileUrl = "https://app.powerbi.com/embed?dashboardId=0c0a46c6-31bd-4cdd-84ac-f6fb153d150b&tileId=780b9ae7-0fdb-4701-a549-188250b80ded";
-
-            AuthenticationResult token = (Session["authResult"]) as AuthenticationResult;
-
-
-
-            //string dashId = "0c0a46c6-31bd-4cdd-84ac-f6fb153d150b";
-
-            //var action = "/beta/myorg/" + dashId + "/tiles";
-
-
-            //using (var httpClient = new HttpClient { BaseAddress = baseAddress })
-            //{
-
-            //    httpClient.DefaultRequestHeaders.TryAddWithoutValidation("authorization", "Bearer " + token.AccessToken);
-
-            //    Task<HttpResponseMessage> t = httpClient.GetAsync(action);
-
-            //    t.Wait();
-
-            //    var response = (HttpResponseMessage)(t.Result);
-
-            //    var t2 = response.Content.ReadAsStringAsync();
-
-            //    t2.Wait();
-
-            //    var content = (t2.Result).ToString();
-
-            //    dynamic dyn = JObject.Parse(content);
-
-            //    tileUrl = dyn.Values[0].EmbedUrl;
-            //}
-
-            ViewBag.TileUrl = tileUrl;
-
-
-            ViewBag.Token = token.AccessToken;
-
-            return View();
+            return groupId;
         }
 
         public ActionResult TreatResponse()
         {
-            //Redirect uri must match the redirect_uri used when requesting Authorization code.
-            string redirectUri = "http://localhost:44307/Admin/TreatResponse";
-            string authorityUri = "https://login.windows.net/common/oauth2/authorize/";
-
             string code = Request["code"];
 
             // Get auth token from auth code       
@@ -141,13 +193,15 @@ namespace CafDataVisu.Controllers
                 clientSecret
                 );
 
-            AuthenticationResult AR = AC.AcquireTokenByAuthorizationCode(code, new Uri(redirectUri), cc);
+            AuthenticationResult AR = AC.AcquireTokenByAuthorizationCode(code, new Uri(responseUri), cc);
 
             //Set Session "authResult" index string to the AuthenticationResult
-            Session["authResult"] = AR;
+
+            this.HttpContext.Cache["authResult"] = AR;
+
 
             //Redirect back to Default.aspx
-            return RedirectToAction("ListGroup");
+            return RedirectToAction("ListTiles", new { groupName = "Hackaton - Scop it" });
         }
     }
 }
