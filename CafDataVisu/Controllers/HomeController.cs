@@ -20,6 +20,10 @@ namespace CafDataVisu.Controllers
         {
             return View();
         }
-        
+
+        public ActionResult Parcours()
+        {
+            return View();
+        }
     }
 }

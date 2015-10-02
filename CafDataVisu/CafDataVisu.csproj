@@ -1094,6 +1094,7 @@
     <Content Include="Views\Admin\GetTile.cshtml" />
     <Content Include="Views\Admin\ListGroup.cshtml" />
     <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Home\Parcours.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
