@@ -8,6 +8,7 @@ using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using System.Threading.Tasks;
 using System.Net.Http;
 using System.Collections.Specialized;
+using System.IO;
 using Newtonsoft.Json;
 using System.Web.Mvc;
 using Newtonsoft.Json.Linq;
@@ -20,6 +21,20 @@ namespace CafDataVisu.Controllers
         {
             return View();
         }
-        
+
+        public ActionResult Parcours()
+        {
+            return View();
+        }
+
+        public ContentResult GetData()
+        {
+            string ret;
+            using (StreamReader sr = new StreamReader(Server.MapPath("~/data.json")))
+            {
+                ret = sr.ReadToEnd();
+            }
+            return Content(ret, "application/json");
+        }
     }
 }
