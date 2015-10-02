@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "GetTile";
+}
+
+
+
+@section scripts{
+    <script type="text/javascript">
+        $(document).ready()
+        {
+            var height = 400;
+            var width = 200;
+
+            var ifrm = document.getElementById("frmTile");
+            ifrm.onload = postActionLoadTile;
+            ifrm.src = "@Html.Raw(ViewBag.TileUrl)";//+ "&width=" + width + "&height=" + height;
+
+            function postActionLoadTile() {
+                // get the access token.
+                accessToken = "@ViewBag.Token";
+
+                // return if no a
+                if ("" === accessToken)
+                    return;
+
+
+                // construct the push message structure
+                var m = { action: "loadTile", accessToken: accessToken, height: height, width: width };
+                message = JSON.stringify(m);
+
+                // push the message.
+                ifrm.contentWindow.postMessage(message, "*");
+            }
+        };
+    </script>
+    }
+
+<h2>GetTile</h2>
+
+<iframe  id="frmTile" height="800" width="800" src="" ></iframe>
