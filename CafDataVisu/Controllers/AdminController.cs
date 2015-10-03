@@ -23,7 +23,7 @@ namespace CafDataVisu.Controllers
 
         string powerbiapiUrl = "https://analysis.windows.net/powerbi/api";
 
-        string responseUri = "http://localhost:44307/Admin/TreatResponse";
+        //string responseUri = "http://localhost:44307/Admin/TreatResponse";
 
         //Redirect uri must match the redirect_uri used when requesting Authorization code.
         string authorityUri = "https://login.windows.net/common/oauth2/authorize/";
@@ -32,6 +32,8 @@ namespace CafDataVisu.Controllers
 
         public ActionResult Index()
         {
+            var responseUri = GetResponseUri();
+
             // Create a query string
             //Create a sign-in NameValueCollection for query string
             var @params = new NameValueCollection
@@ -181,6 +183,8 @@ namespace CafDataVisu.Controllers
 
         public ActionResult TreatResponse()
         {
+            var responseUri = GetResponseUri();
+
             string code = Request["code"];
 
             // Get auth token from auth code       
@@ -202,6 +206,20 @@ namespace CafDataVisu.Controllers
 
             //Redirect back to Default.aspx
             return RedirectToAction("ListTiles", new { groupName = "Hackaton - Scop it" });
+        }
+
+        private string GetResponseUri()
+        {
+            string responseUri;
+
+            responseUri = "http://" +  HttpContext.Request.Url.Host;
+            if (responseUri == "http://localhost")
+                responseUri += ":" + HttpContext.Request.Url.Port;
+
+            responseUri += "/Admin/TreatResponse";
+
+            return responseUri;
+
         }
     }
 }
