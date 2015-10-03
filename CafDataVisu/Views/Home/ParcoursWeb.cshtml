@@ -35,7 +35,7 @@
                 <div class="box-body">
                     <div class="form-group">
                         <label for="period" class="col-sm-2 control-label">Période</label>
-                        <div class="input-group col-sm-3 date">
+                        <div class="input-group col-sm-6 date">
                             <input type="text" id="period" class="form-control" value="201505"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
                         </div>
                     </div>
@@ -155,11 +155,8 @@
 
         function create() {
 
-            //var x = d3.select("#chart svg");
-            //if(x !== undefined)
-            //    x.remove();
-
             $('#chart').empty();
+            $('#legend').empty();
 
             vis = d3.select("#chart")
                 .append("svg:svg")
@@ -378,7 +375,7 @@
 
             // Dimensions of legend item: width, height, spacing, radius of rounded rect.
             var li = {
-                w: 75,
+                w: 175,
                 h: 30,
                 s: 3,
                 r: 3
@@ -391,7 +388,7 @@
             var g = legend.selectAll("g")
                 .data(d3.entries(colors))
                 .enter().append("svg:g")
-                .attr("transform", function(d, i) {
+                .attr("transform", function (d, i) {
                     return "translate(0," + i * (li.h + li.s) + ")";
                 });
 
@@ -407,7 +404,12 @@
                 .attr("y", li.h / 2)
                 .attr("dy", "0.35em")
                 .attr("text-anchor", "middle")
-                .text(function(d) { return d.key; });
+                .text(function(d) { return d.key.substr(0, 20); });
+
+            var g2 = legend.selectAll("g");
+            g2.append("svg:title").text(function(d) { return d.key });
+
+
         }
 
         function toggleLegend() {
