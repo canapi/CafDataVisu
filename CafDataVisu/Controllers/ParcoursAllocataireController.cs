@@ -35,12 +35,14 @@ namespace CafDataVisu.Controllers
         public string NodeName { get; set; }
         [JsonIgnore]
         public List<HierarchyMember> Children { get; set; }
+        [JsonIgnore]
+        public int Rate { get; set; }
 
         public string name {
             get{
-                if(NodeName.Length>25)
-                    return NodeName.Substring(0,24) + "..." + "("+ AllocataireCount .ToString()+ ")";
-                return NodeName + "(" + AllocataireCount.ToString() + ")";
+                if(NodeName.Length>27)
+                    return NodeName.Substring(0,26) + "..." + "("+ Rate.ToString()+"%)";
+                return NodeName + "(" + Rate.ToString() + "%)";
 
             }
         }
@@ -148,11 +150,14 @@ namespace CafDataVisu.Controllers
             {
                 string parentPath = parent.PathFromStart + (string.IsNullOrEmpty(parent.PathFromStart) ? "" : "|");
 
+                int allocCount = rows.Where(r => r.PathMod.StartsWith(parentPath + child)).Sum(r => r.Nb);
+
                 HierarchyMember member = new HierarchyMember()
                 {
-                    AllocataireCount = rows.Where(r=>r.PathMod.StartsWith(parentPath + child)).Sum(r => r.Nb),
+                    AllocataireCount = allocCount,
                     NodeName = child,
-                    PathFromStart = parentPath + child
+                    PathFromStart = parentPath + child,
+                    Rate = allocCount * 100 / parent.AllocataireCount
                 };
 
                 member.Children = GetHierarchyFromHierarchyRowList(member);

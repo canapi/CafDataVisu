@@ -1,40 +1,40 @@
 {
-  "name": "Tous les allocataires(144)",
+  "name": "Tous les alocataires(0%)",
   "free": true,
   "description": "Tous les alocataires(144)",
   "children": [
     {
-      "name": "Demande de renseignement...(112)",
+      "name": "Demande de renseignement s...(77%)",
       "free": true,
       "description": "Demande de renseignement sans contestation(112)",
       "children": [
         {
-          "name": "Autre motif de réclamati...(1)",
+          "name": "Autre motif de réclamation(0%)",
           "free": true,
           "description": "Autre motif de réclamation(1)",
           "children": [
             {
-              "name": "Demande de renseignement...(1)",
+              "name": "Demande de renseignement s...(100%)",
               "free": true,
               "description": "Demande de renseignement sans contestation(1)",
               "children": [
                 {
-                  "name": "Demande de renseignement...(1)",
+                  "name": "Demande de renseignement s...(100%)",
                   "free": true,
                   "description": "Demande de renseignement sans contestation(1)",
                   "children": [
                     {
-                      "name": "Demande de renseignement...(1)",
+                      "name": "Demande de renseignement s...(100%)",
                       "free": true,
                       "description": "Demande de renseignement sans contestation(1)",
                       "children": [
                         {
-                          "name": "Dépôt ou retrait de docu...(1)",
+                          "name": "Dépôt ou retrait de docume...(100%)",
                           "free": true,
                           "description": "Dépôt ou retrait de document(1)",
                           "children": [
                             {
-                              "name": "Demande de renseignement...(1)",
+                              "name": "Demande de renseignement s...(100%)",
                               "free": true,
                               "description": "Demande de renseignement sans contestation(1)",
                               "children": [ ]
@@ -50,22 +50,22 @@
           ]
         },
         {
-          "name": "Déclaration d'évenement ...(4)",
+          "name": "Déclaration d'évenement ou...(3%)",
           "free": true,
           "description": "Déclaration d'évenement ou changement de situation(4)",
           "children": [
             {
-              "name": "Demande de renseignement...(4)",
+              "name": "Demande de renseignement s...(100%)",
               "free": true,
               "description": "Demande de renseignement sans contestation(4)",
               "children": [
                 {
-                  "name": "Demande de renseignement...(2)",
+                  "name": "Demande de renseignement s...(50%)",
                   "free": true,
                   "description": "Demande de renseignement sans contestation(2)",
                   "children": [
                     {
-                      "name": "Déclaration d'évenement ...(1)",
+                      "name": "Déclaration d'évenement ou...(50%)",
                       "free": true,
                       "description": "Déclaration d'évenement ou changement de situation(1)",
                       "children": [ ]
@@ -77,57 +77,57 @@
           ]
         },
         {
-          "name": "Demande de renseignement...(63)",
+          "name": "Demande de renseignement s...(56%)",
           "free": true,
           "description": "Demande de renseignement sans contestation(63)",
           "children": [
             {
-              "name": "Demande de renseignement...(36)",
+              "name": "Demande de renseignement s...(57%)",
               "free": true,
               "description": "Demande de renseignement sans contestation(36)",
               "children": [
                 {
-                  "name": "Déclaration d'évenement ...(4)",
+                  "name": "Déclaration d'évenement ou...(11%)",
                   "free": true,
                   "description": "Déclaration d'évenement ou changement de situation(4)",
                   "children": [
                     {
-                      "name": "Demande de renseignement...(3)",
+                      "name": "Demande de renseignement s...(75%)",
                       "free": true,
                       "description": "Demande de renseignement sans contestation(3)",
                       "children": [
                         {
-                          "name": "Demande de renseignement...(3)",
+                          "name": "Demande de renseignement s...(100%)",
                           "free": true,
                           "description": "Demande de renseignement sans contestation(3)",
                           "children": [
                             {
-                              "name": "Demande de renseignement...(1)",
+                              "name": "Demande de renseignement s...(33%)",
                               "free": true,
                               "description": "Demande de renseignement sans contestation(1)",
                               "children": [
                                 {
-                                  "name": "Demande de renseignement...(1)",
+                                  "name": "Demande de renseignement s...(100%)",
                                   "free": true,
                                   "description": "Demande de renseignement sans contestation(1)",
                                   "children": [
                                     {
-                                      "name": "Demande de renseignement...(1)",
+                                      "name": "Demande de renseignement s...(100%)",
                                       "free": true,
                                       "description": "Demande de renseignement sans contestation(1)",
                                       "children": [
                                         {
-                                          "name": "Demande de renseignement...(1)",
+                                          "name": "Demande de renseignement s...(100%)",
                                           "free": true,
                                           "description": "Demande de renseignement sans contestation(1)",
                                           "children": [
                                             {
-                                              "name": "Réclamation : incompréhe...(1)",
+                                              "name": "Réclamation : incompréhens...(100%)",
                                               "free": true,
                                               "description": "Réclamation : incompréhension décision caf(1)",
                                               "children": [
                                                 {
-                                                  "name": "Dépôt ou retrait de docu...(1)",
+                                                  "name": "Dépôt ou retrait de docume...(100%)",
                                                   "free": true,
                                                   "description": "Dépôt ou retrait de document(1)",
                                                   "children": [ ]
@@ -143,12 +143,12 @@
                               ]
                             },
                             {
-                              "name": "Dépôt ou retrait de docu...(1)",
+                              "name": "Dépôt ou retrait de docume...(33%)",
                               "free": true,
                               "description": "Dépôt ou retrait de document(1)",
                               "children": [
                                 {
-                                  "name": "Demande de renseignement...(1)",
+                                  "name": "Demande de renseignement s...(100%)",
                                   "free": true,
                                   "description": "Demande de renseignement sans contestation(1)",
                                   "children": [ ]
@@ -162,67 +162,67 @@
                   ]
                 },
                 {
-                  "name": "Demande de renseignement...(20)",
+                  "name": "Demande de renseignement s...(55%)",
                   "free": true,
                   "description": "Demande de renseignement sans contestation(20)",
                   "children": [
                     {
-                      "name": "Demande de renseignement...(14)",
+                      "name": "Demande de renseignement s...(70%)",
                       "free": true,
                       "description": "Demande de renseignement sans contestation(14)",
                       "children": [
                         {
-                          "name": "Demande de renseignement...(8)",
+                          "name": "Demande de renseignement s...(57%)",
                           "free": true,
                           "description": "Demande de renseignement sans contestation(8)",
                           "children": [
                             {
-                              "name": "Demande de renseignement...(3)",
+                              "name": "Demande de renseignement s...(37%)",
                               "free": true,
                               "description": "Demande de renseignement sans contestation(3)",
                               "children": [
                                 {
-                                  "name": "Demande de renseignement...(2)",
+                                  "name": "Demande de renseignement s...(66%)",
                                   "free": true,
                                   "description": "Demande de renseignement sans contestation(2)",
                                   "children": [
                                     {
-                                      "name": "Demande de renseignement...(1)",
+                                      "name": "Demande de renseignement s...(50%)",
                                       "free": true,
                                       "description": "Demande de renseignement sans contestation(1)",
                                       "children": [
                                         {
-                                          "name": "Demande de renseignement...(1)",
+                                          "name": "Demande de renseignement s...(100%)",
                                           "free": true,
                                           "description": "Demande de renseignement sans contestation(1)",
                                           "children": [
                                             {
-                                              "name": "Demande de renseignement...(1)",
+                                              "name": "Demande de renseignement s...(100%)",
                                               "free": true,
                                               "description": "Demande de renseignement sans contestation(1)",
                                               "children": [
                                                 {
-                                                  "name": "Demande de renseignement...(1)",
+                                                  "name": "Demande de renseignement s...(100%)",
                                                   "free": true,
                                                   "description": "Demande de renseignement sans contestation(1)",
                                                   "children": [
                                                     {
-                                                      "name": "Demande de renseignement...(1)",
+                                                      "name": "Demande de renseignement s...(100%)",
                                                       "free": true,
                                                       "description": "Demande de renseignement sans contestation(1)",
                                                       "children": [
                                                         {
-                                                          "name": "Demande de renseignement...(1)",
+                                                          "name": "Demande de renseignement s...(100%)",
                                                           "free": true,
                                                           "description": "Demande de renseignement sans contestation(1)",
                                                           "children": [
                                                             {
-                                                              "name": "Demande de renseignement...(1)",
+                                                              "name": "Demande de renseignement s...(100%)",
                                                               "free": true,
                                                               "description": "Demande de renseignement sans contestation(1)",
                                                               "children": [
                                                                 {
-                                                                  "name": "Demande de renseignement...(1)",
+                                                                  "name": "Demande de renseignement s...(100%)",
                                                                   "free": true,
                                                                   "description": "Demande de renseignement sans contestation(1)",
                                                                   "children": [ ]
@@ -242,17 +242,17 @@
                                       ]
                                     },
                                     {
-                                      "name": "Réclamation : absence de...(1)",
+                                      "name": "Réclamation : absence de r...(50%)",
                                       "free": true,
                                       "description": "Réclamation : absence de réponse(1)",
                                       "children": [
                                         {
-                                          "name": "Réclamation : absence de...(1)",
+                                          "name": "Réclamation : absence de p...(100%)",
                                           "free": true,
                                           "description": "Réclamation : absence de paiement(1)",
                                           "children": [
                                             {
-                                              "name": "Rendez-vous des droits/P...(1)",
+                                              "name": "Rendez-vous des droits/Par...(100%)",
                                               "free": true,
                                               "description": "Rendez-vous des droits/Parcours spécifiques(1)",
                                               "children": [ ]
@@ -266,82 +266,82 @@
                               ]
                             },
                             {
-                              "name": "Réclamation : documents ...(1)",
+                              "name": "Réclamation : documents no...(12%)",
                               "free": true,
                               "description": "Réclamation : documents non pris ou mal pris en compte(1)",
                               "children": [
                                 {
-                                  "name": "Demande de renseignement...(1)",
+                                  "name": "Demande de renseignement s...(100%)",
                                   "free": true,
                                   "description": "Demande de renseignement sans contestation(1)",
                                   "children": [
                                     {
-                                      "name": "Demande de renseignement...(1)",
+                                      "name": "Demande de renseignement s...(100%)",
                                       "free": true,
                                       "description": "Demande de renseignement sans contestation(1)",
                                       "children": [
                                         {
-                                          "name": "Demande de renseignement...(1)",
+                                          "name": "Demande de renseignement s...(100%)",
                                           "free": true,
                                           "description": "Demande de renseignement sans contestation(1)",
                                           "children": [
                                             {
-                                              "name": "Demande de renseignement...(1)",
+                                              "name": "Demande de renseignement s...(100%)",
                                               "free": true,
                                               "description": "Demande de renseignement sans contestation(1)",
                                               "children": [
                                                 {
-                                                  "name": "Demande de renseignement...(1)",
+                                                  "name": "Demande de renseignement s...(100%)",
                                                   "free": true,
                                                   "description": "Demande de renseignement sans contestation(1)",
                                                   "children": [
                                                     {
-                                                      "name": "Déclaration d'évenement ...(1)",
+                                                      "name": "Déclaration d'évenement ou...(100%)",
                                                       "free": true,
                                                       "description": "Déclaration d'évenement ou changement de situation(1)",
                                                       "children": [
                                                         {
-                                                          "name": "Demande de renseignement...(1)",
+                                                          "name": "Demande de renseignement s...(100%)",
                                                           "free": true,
                                                           "description": "Demande de renseignement sans contestation(1)",
                                                           "children": [
                                                             {
-                                                              "name": "Paiement (attestation, a...(1)",
+                                                              "name": "Paiement (attestation, aco...(100%)",
                                                               "free": true,
                                                               "description": "Paiement (attestation, acompte, demande de renseignement sur paiement, ...)(1)",
                                                               "children": [
                                                                 {
-                                                                  "name": "Demande de renseignement...(1)",
+                                                                  "name": "Demande de renseignement s...(100%)",
                                                                   "free": true,
                                                                   "description": "Demande de renseignement sans contestation(1)",
                                                                   "children": [
                                                                     {
-                                                                      "name": "Demande de renseignement...(1)",
+                                                                      "name": "Demande de renseignement s...(100%)",
                                                                       "free": true,
                                                                       "description": "Demande de renseignement sans contestation(1)",
                                                                       "children": [
                                                                         {
-                                                                          "name": "Déclaration d'évenement ...(1)",
+                                                                          "name": "Déclaration d'évenement ou...(100%)",
                                                                           "free": true,
                                                                           "description": "Déclaration d'évenement ou changement de situation(1)",
                                                                           "children": [
                                                                             {
-                                                                              "name": "Demande de renseignement...(1)",
+                                                                              "name": "Demande de renseignement s...(100%)",
                                                                               "free": true,
                                                                               "description": "Demande de renseignement sans contestation(1)",
                                                                               "children": [
                                                                                 {
-                                                                                  "name": "Demande de renseignement...(1)",
+                                                                                  "name": "Demande de renseignement s...(100%)",
                                                                                   "free": true,
                                                                                   "description": "Demande de renseignement sans contestation(1)",
                                                                                   "children": [
                                                                                     {
-                                                                                      "name": "Demande de renseignement...(1)",
+                                                                                      "name": "Demande de renseignement s...(100%)",
                                                                                       "free": true,
                                                                                       "description": "Demande de renseignement sans contestation(1)",
                                                                                       "children": [
                                                                                         {
-                                                                                          "name": "Demande de renseignement...(1)",
+                                                                                          "name": "Demande de renseignement s...(100%)",
                                                                                           "free": true,
                                                                                           "description": "Demande de renseignement sans contestation(1)",
                                                                                           "children": [ ]
@@ -377,72 +377,72 @@
                               ]
                             },
                             {
-                              "name": "Réclamation : absence de...(1)",
+                              "name": "Réclamation : absence de r...(12%)",
                               "free": true,
                               "description": "Réclamation : absence de réponse(1)",
                               "children": [
                                 {
-                                  "name": "Demande de renseignement...(1)",
+                                  "name": "Demande de renseignement s...(100%)",
                                   "free": true,
                                   "description": "Demande de renseignement sans contestation(1)",
                                   "children": [
                                     {
-                                      "name": "Demande de renseignement...(1)",
+                                      "name": "Demande de renseignement s...(100%)",
                                       "free": true,
                                       "description": "Demande de renseignement sans contestation(1)",
                                       "children": [
                                         {
-                                          "name": "Dépôt ou retrait de docu...(1)",
+                                          "name": "Dépôt ou retrait de docume...(100%)",
                                           "free": true,
                                           "description": "Dépôt ou retrait de document(1)",
                                           "children": [
                                             {
-                                              "name": "Demande de renseignement...(1)",
+                                              "name": "Demande de renseignement s...(100%)",
                                               "free": true,
                                               "description": "Demande de renseignement sans contestation(1)",
                                               "children": [
                                                 {
-                                                  "name": "Demande de renseignement...(1)",
+                                                  "name": "Demande de renseignement s...(100%)",
                                                   "free": true,
                                                   "description": "Demande de renseignement sans contestation(1)",
                                                   "children": [
                                                     {
-                                                      "name": "Dépôt ou retrait de docu...(1)",
+                                                      "name": "Dépôt ou retrait de docume...(100%)",
                                                       "free": true,
                                                       "description": "Dépôt ou retrait de document(1)",
                                                       "children": [
                                                         {
-                                                          "name": "Demande de renseignement...(1)",
+                                                          "name": "Demande de renseignement s...(100%)",
                                                           "free": true,
                                                           "description": "Demande de renseignement sans contestation(1)",
                                                           "children": [
                                                             {
-                                                              "name": "Demande de renseignement...(1)",
+                                                              "name": "Demande de renseignement s...(100%)",
                                                               "free": true,
                                                               "description": "Demande de renseignement sans contestation(1)",
                                                               "children": [
                                                                 {
-                                                                  "name": "Demande de renseignement...(1)",
+                                                                  "name": "Demande de renseignement s...(100%)",
                                                                   "free": true,
                                                                   "description": "Demande de renseignement sans contestation(1)",
                                                                   "children": [
                                                                     {
-                                                                      "name": "Demande de renseignement...(1)",
+                                                                      "name": "Demande de renseignement s...(100%)",
                                                                       "free": true,
                                                                       "description": "Demande de renseignement sans contestation(1)",
                                                                       "children": [
                                                                         {
-                                                                          "name": "Demande de renseignement...(1)",
+                                                                          "name": "Demande de renseignement s...(100%)",
                                                                           "free": true,
                                                                           "description": "Demande de renseignement sans contestation(1)",
                                                                           "children": [
                                                                             {
-                                                                              "name": "Dépôt ou retrait de docu...(1)",
+                                                                              "name": "Dépôt ou retrait de docume...(100%)",
                                                                               "free": true,
                                                                               "description": "Dépôt ou retrait de document(1)",
                                                                               "children": [
                                                                                 {
-                                                                                  "name": "Demande de renseignement...(1)",
+                                                                                  "name": "Demande de renseignement s...(100%)",
                                                                                   "free": true,
                                                                                   "description": "Demande de renseignement sans contestation(1)",
                                                                                   "children": [ ]
@@ -476,17 +476,17 @@
                           ]
                         },
                         {
-                          "name": "Réclamation : incompréhe...(1)",
+                          "name": "Réclamation : incompréhens...(7%)",
                           "free": true,
                           "description": "Réclamation : incompréhension trop perçu / modalités remboursement(1)",
                           "children": [
                             {
-                              "name": "Demande de renseignement...(1)",
+                              "name": "Demande de renseignement s...(100%)",
                               "free": true,
                               "description": "Demande de renseignement sans contestation(1)",
                               "children": [
                                 {
-                                  "name": "Demande de renseignement...(1)",
+                                  "name": "Demande de renseignement s...(100%)",
                                   "free": true,
                                   "description": "Demande de renseignement sans contestation(1)",
                                   "children": [ ]
@@ -498,52 +498,52 @@
                       ]
                     },
                     {
-                      "name": "Instruction administrati...(1)",
+                      "name": "Instruction administrative...(5%)",
                       "free": true,
                       "description": "Instruction administrative RSA ou instruction abandonnée RMI (DOM)(1)",
                       "children": [
                         {
-                          "name": "Demande de renseignement...(1)",
+                          "name": "Demande de renseignement s...(100%)",
                           "free": true,
                           "description": "Demande de renseignement sans contestation(1)",
                           "children": [
                             {
-                              "name": "Dépôt ou retrait de docu...(1)",
+                              "name": "Dépôt ou retrait de docume...(100%)",
                               "free": true,
                               "description": "Dépôt ou retrait de document(1)",
                               "children": [
                                 {
-                                  "name": "Dépôt ou retrait de docu...(1)",
+                                  "name": "Dépôt ou retrait de docume...(100%)",
                                   "free": true,
                                   "description": "Dépôt ou retrait de document(1)",
                                   "children": [
                                     {
-                                      "name": "Demande de renseignement...(1)",
+                                      "name": "Demande de renseignement s...(100%)",
                                       "free": true,
                                       "description": "Demande de renseignement sans contestation(1)",
                                       "children": [
                                         {
-                                          "name": "Demande de renseignement...(1)",
+                                          "name": "Demande de renseignement s...(100%)",
                                           "free": true,
                                           "description": "Demande de renseignement sans contestation(1)",
                                           "children": [
                                             {
-                                              "name": "Demande de renseignement...(1)",
+                                              "name": "Demande de renseignement s...(100%)",
                                               "free": true,
                                               "description": "Demande de renseignement sans contestation(1)",
                                               "children": [
                                                 {
-                                                  "name": "Réclamation : documents ...(1)",
+                                                  "name": "Réclamation : documents no...(100%)",
                                                   "free": true,
                                                   "description": "Réclamation : documents non pris ou mal pris en compte(1)",
                                                   "children": [
                                                     {
-                                                      "name": "Demande de renseignement...(1)",
+                                                      "name": "Demande de renseignement s...(100%)",
                                                       "free": true,
                                                       "description": "Demande de renseignement sans contestation(1)",
                                                       "children": [
                                                         {
-                                                          "name": "Demande de renseignement...(1)",
+                                                          "name": "Demande de renseignement s...(100%)",
                                                           "free": true,
                                                           "description": "Demande de renseignement sans contestation(1)",
                                                           "children": [ ]
@@ -569,18 +569,18 @@
                   ]
                 },
                 {
-                  "name": "Réclamation : absence de...(1)",
+                  "name": "Réclamation : absence de p...(2%)",
                   "free": true,
                   "description": "Réclamation : absence de paiement(1)",
                   "children": [ ]
                 },
                 {
-                  "name": "Réclamation : incompréhe...(1)",
+                  "name": "Réclamation : incompréhens...(2%)",
                   "free": true,
                   "description": "Réclamation : incompréhension trop perçu / modalités remboursement(1)",
                   "children": [
                     {
-                      "name": "Dépôt ou retrait de docu...(1)",
+                      "name": "Dépôt ou retrait de docume...(100%)",
                       "free": true,
                       "description": "Dépôt ou retrait de document(1)",
                       "children": [ ]
@@ -588,43 +588,43 @@
                   ]
                 },
                 {
-                  "name": "Dépôt ou retrait de docu...(1)",
+                  "name": "Dépôt ou retrait de docume...(2%)",
                   "free": true,
                   "description": "Dépôt ou retrait de document(1)",
                   "children": [ ]
                 },
                 {
-                  "name": "Réclamation : documents ...(1)",
+                  "name": "Réclamation : documents no...(2%)",
                   "free": true,
                   "description": "Réclamation : documents non pris ou mal pris en compte(1)",
                   "children": [
                     {
-                      "name": "Demande de renseignement...(1)",
+                      "name": "Demande de renseignement s...(100%)",
                       "free": true,
                       "description": "Demande de renseignement sans contestation(1)",
                       "children": [
                         {
-                          "name": "Rendez-vous des droits/I...(1)",
+                          "name": "Rendez-vous des droits/Ins...(100%)",
                           "free": true,
                           "description": "Rendez-vous des droits/Instruction RSA(1)",
                           "children": [
                             {
-                              "name": "Dépôt ou retrait de docu...(1)",
+                              "name": "Dépôt ou retrait de docume...(100%)",
                               "free": true,
                               "description": "Dépôt ou retrait de document(1)",
                               "children": [
                                 {
-                                  "name": "Demande de renseignement...(1)",
+                                  "name": "Demande de renseignement s...(100%)",
                                   "free": true,
                                   "description": "Demande de renseignement sans contestation(1)",
                                   "children": [
                                     {
-                                      "name": "Demande de renseignement...(1)",
+                                      "name": "Demande de renseignement s...(100%)",
                                       "free": true,
                                       "description": "Demande de renseignement sans contestation(1)",
                                       "children": [
                                         {
-                                          "name": "Dépôt ou retrait de docu...(1)",
+                                          "name": "Dépôt ou retrait de docume...(100%)",
                                           "free": true,
                                           "description": "Dépôt ou retrait de document(1)",
                                           "children": [ ]
@@ -644,28 +644,28 @@
               ]
             },
             {
-              "name": "Dépôt ou retrait de docu...(4)",
+              "name": "Dépôt ou retrait de docume...(6%)",
               "free": true,
               "description": "Dépôt ou retrait de document(4)",
               "children": [
                 {
-                  "name": "Demande de renseignement...(2)",
+                  "name": "Demande de renseignement s...(50%)",
                   "free": true,
                   "description": "Demande de renseignement sans contestation(2)",
                   "children": [
                     {
-                      "name": "Demande de renseignement...(2)",
+                      "name": "Demande de renseignement s...(100%)",
                       "free": true,
                       "description": "Demande de renseignement sans contestation(2)",
                       "children": [
                         {
-                          "name": "Demande de renseignement...(1)",
+                          "name": "Demande de renseignement s...(50%)",
                           "free": true,
                           "description": "Demande de renseignement sans contestation(1)",
                           "children": [ ]
                         },
                         {
-                          "name": "Réclamation : incompréhe...(1)",
+                          "name": "Réclamation : incompréhens...(50%)",
                           "free": true,
                           "description": "Réclamation : incompréhension décision caf(1)",
                           "children": [ ]
@@ -677,12 +677,12 @@
               ]
             },
             {
-              "name": "Déclaration d'évenement ...(1)",
+              "name": "Déclaration d'évenement ou...(1%)",
               "free": true,
               "description": "Déclaration d'évenement ou changement de situation(1)",
               "children": [
                 {
-                  "name": "Demande de renseignement...(1)",
+                  "name": "Demande de renseignement s...(100%)",
                   "free": true,
                   "description": "Demande de renseignement sans contestation(1)",
                   "children": [ ]
@@ -690,12 +690,12 @@
               ]
             },
             {
-              "name": "Paiement (attestation, a...(2)",
+              "name": "Paiement (attestation, aco...(3%)",
               "free": true,
               "description": "Paiement (attestation, acompte, demande de renseignement sur paiement, ...)(2)",
               "children": [
                 {
-                  "name": "Demande de renseignement...(1)",
+                  "name": "Demande de renseignement s...(50%)",
                   "free": true,
                   "description": "Demande de renseignement sans contestation(1)",
                   "children": [ ]
@@ -703,22 +703,22 @@
               ]
             },
             {
-              "name": "Rendez-vous des droits/A...(1)",
+              "name": "Rendez-vous des droits/Aut...(1%)",
               "free": true,
               "description": "Rendez-vous des droits/Autres (accueil sur RV, orientation partenaire, …)(1)",
               "children": [
                 {
-                  "name": "Dépôt ou retrait de docu...(1)",
+                  "name": "Dépôt ou retrait de docume...(100%)",
                   "free": true,
                   "description": "Dépôt ou retrait de document(1)",
                   "children": [
                     {
-                      "name": "Demande de renseignement...(1)",
+                      "name": "Demande de renseignement s...(100%)",
                       "free": true,
                       "description": "Demande de renseignement sans contestation(1)",
                       "children": [
                         {
-                          "name": "Demande de renseignement...(1)",
+                          "name": "Demande de renseignement s...(100%)",
                           "free": true,
                           "description": "Demande de renseignement sans contestation(1)",
                           "children": [ ]
@@ -732,98 +732,98 @@
           ]
         },
         {
-          "name": "Dépôt ou retrait de docu...(3)",
+          "name": "Dépôt ou retrait de docume...(2%)",
           "free": true,
           "description": "Dépôt ou retrait de document(3)",
           "children": [
             {
-              "name": "Dépôt ou retrait de docu...(1)",
+              "name": "Dépôt ou retrait de docume...(33%)",
               "free": true,
               "description": "Dépôt ou retrait de document(1)",
               "children": [ ]
             },
             {
-              "name": "Demande de renseignement...(1)",
+              "name": "Demande de renseignement s...(33%)",
               "free": true,
               "description": "Demande de renseignement sans contestation(1)",
               "children": [
                 {
-                  "name": "Déclaration d'évenement ...(1)",
+                  "name": "Déclaration d'évenement ou...(100%)",
                   "free": true,
                   "description": "Déclaration d'évenement ou changement de situation(1)",
                   "children": [
                     {
-                      "name": "Rendez-vous des droits/A...(1)",
+                      "name": "Rendez-vous des droits/Aut...(100%)",
                       "free": true,
                       "description": "Rendez-vous des droits/Autres (accueil sur RV, orientation partenaire, …)(1)",
                       "children": [
                         {
-                          "name": "Déclaration d'évenement ...(1)",
+                          "name": "Déclaration d'évenement ou...(100%)",
                           "free": true,
                           "description": "Déclaration d'évenement ou changement de situation(1)",
                           "children": [
                             {
-                              "name": "Instruction administrati...(1)",
+                              "name": "Instruction administrative...(100%)",
                               "free": true,
                               "description": "Instruction administrative RSA ou instruction abandonnée RMI (DOM)(1)",
                               "children": [
                                 {
-                                  "name": "Demande de renseignement...(1)",
+                                  "name": "Demande de renseignement s...(100%)",
                                   "free": true,
                                   "description": "Demande de renseignement sans contestation(1)",
                                   "children": [
                                     {
-                                      "name": "Opérations particulières...(1)",
+                                      "name": "Opérations particulières (...(100%)",
                                       "free": true,
                                       "description": "Opérations particulières (organis.forum, opération sur une prest. spécif ...)(1)",
                                       "children": [
                                         {
-                                          "name": "Déclaration d'évenement ...(1)",
+                                          "name": "Déclaration d'évenement ou...(100%)",
                                           "free": true,
                                           "description": "Déclaration d'évenement ou changement de situation(1)",
                                           "children": [
                                             {
-                                              "name": "Demande de renseignement...(1)",
+                                              "name": "Demande de renseignement s...(100%)",
                                               "free": true,
                                               "description": "Demande de renseignement sans contestation(1)",
                                               "children": [
                                                 {
-                                                  "name": "Demande de renseignement...(1)",
+                                                  "name": "Demande de renseignement s...(100%)",
                                                   "free": true,
                                                   "description": "Demande de renseignement sans contestation(1)",
                                                   "children": [
                                                     {
-                                                      "name": "Opérations particulières...(1)",
+                                                      "name": "Opérations particulières (...(100%)",
                                                       "free": true,
                                                       "description": "Opérations particulières (organis.forum, opération sur une prest. spécif ...)(1)",
                                                       "children": [
                                                         {
-                                                          "name": "Demande de renseignement...(1)",
+                                                          "name": "Demande de renseignement s...(100%)",
                                                           "free": true,
                                                           "description": "Demande de renseignement sans contestation(1)",
                                                           "children": [
                                                             {
-                                                              "name": "Demande de renseignement...(1)",
+                                                              "name": "Demande de renseignement s...(100%)",
                                                               "free": true,
                                                               "description": "Demande de renseignement sans contestation(1)",
                                                               "children": [
                                                                 {
-                                                                  "name": "Demande de renseignement...(1)",
+                                                                  "name": "Demande de renseignement s...(100%)",
                                                                   "free": true,
                                                                   "description": "Demande de renseignement sans contestation(1)",
                                                                   "children": [
                                                                     {
-                                                                      "name": "Rendez-vous des droits/A...(1)",
+                                                                      "name": "Rendez-vous des droits/Aut...(100%)",
                                                                       "free": true,
                                                                       "description": "Rendez-vous des droits/Autres (accueil sur RV, orientation partenaire, …)(1)",
                                                                       "children": [
                                                                         {
-                                                                          "name": "Demande de renseignement...(1)",
+                                                                          "name": "Demande de renseignement s...(100%)",
                                                                           "free": true,
                                                                           "description": "Demande de renseignement sans contestation(1)",
                                                                           "children": [
                                                                             {
-                                                                              "name": "Demande de renseignement...(1)",
+                                                                              "name": "Demande de renseignement s...(100%)",
                                                                               "free": true,
                                                                               "description": "Demande de renseignement sans contestation(1)",
                                                                               "children": [ ]
@@ -863,48 +863,48 @@
           ]
         },
         {
-          "name": "Paiement (attestation, a...(3)",
+          "name": "Paiement (attestation, aco...(2%)",
           "free": true,
           "description": "Paiement (attestation, acompte, demande de renseignement sur paiement, ...)(3)",
           "children": [
             {
-              "name": "Demande de renseignement...(2)",
+              "name": "Demande de renseignement s...(66%)",
               "free": true,
               "description": "Demande de renseignement sans contestation(2)",
               "children": [
                 {
-                  "name": "Demande de renseignement...(2)",
+                  "name": "Demande de renseignement s...(100%)",
                   "free": true,
                   "description": "Demande de renseignement sans contestation(2)",
                   "children": [
                     {
-                      "name": "Déclaration d'évenement ...(1)",
+                      "name": "Déclaration d'évenement ou...(50%)",
                       "free": true,
                       "description": "Déclaration d'évenement ou changement de situation(1)",
                       "children": [ ]
                     },
                     {
-                      "name": "Demande de renseignement...(1)",
+                      "name": "Demande de renseignement s...(50%)",
                       "free": true,
                       "description": "Demande de renseignement sans contestation(1)",
                       "children": [
                         {
-                          "name": "Demande de renseignement...(1)",
+                          "name": "Demande de renseignement s...(100%)",
                           "free": true,
                           "description": "Demande de renseignement sans contestation(1)",
                           "children": [
                             {
-                              "name": "Demande de renseignement...(1)",
+                              "name": "Demande de renseignement s...(100%)",
                               "free": true,
                               "description": "Demande de renseignement sans contestation(1)",
                               "children": [
                                 {
-                                  "name": "Demande de renseignement...(1)",
+                                  "name": "Demande de renseignement s...(100%)",
                                   "free": true,
                                   "description": "Demande de renseignement sans contestation(1)",
                                   "children": [
                                     {
-                                      "name": "Demande de renseignement...(1)",
+                                      "name": "Demande de renseignement s...(100%)",
                                       "free": true,
                                       "description": "Demande de renseignement sans contestation(1)",
                                       "children": [ ]
@@ -922,7 +922,7 @@
               ]
             },
             {
-              "name": "Dépôt ou retrait de docu...(1)",
+              "name": "Dépôt ou retrait de docume...(33%)",
               "free": true,
               "description": "Dépôt ou retrait de document(1)",
               "children": [ ]
@@ -930,27 +930,27 @@
           ]
         },
         {
-          "name": "Réclamation : incompréhe...(2)",
+          "name": "Réclamation : incompréhens...(1%)",
           "free": true,
           "description": "Réclamation : incompréhension trop perçu / modalités remboursement(2)",
           "children": [
             {
-              "name": "Demande de renseignement...(2)",
+              "name": "Demande de renseignement s...(100%)",
               "free": true,
               "description": "Demande de renseignement sans contestation(2)",
               "children": [
                 {
-                  "name": "Demande de renseignement...(1)",
+                  "name": "Demande de renseignement s...(50%)",
                   "free": true,
                   "description": "Demande de renseignement sans contestation(1)",
                   "children": [
                     {
-                      "name": "Demande de renseignement...(1)",
+                      "name": "Demande de renseignement s...(100%)",
                       "free": true,
                       "description": "Demande de renseignement sans contestation(1)",
                       "children": [
                         {
-                          "name": "Paiement (attestation, a...(1)",
+                          "name": "Paiement (attestation, aco...(100%)",
                           "free": true,
                           "description": "Paiement (attestation, acompte, demande de renseignement sur paiement, ...)(1)",
                           "children": [ ]
@@ -966,28 +966,28 @@
       ]
     },
     {
-      "name": "Dépôt ou retrait de docu...(12)",
+      "name": "Dépôt ou retrait de docume...(8%)",
       "free": true,
       "description": "Dépôt ou retrait de document(12)",
       "children": [
         {
-          "name": "Demande de renseignement...(4)",
+          "name": "Demande de renseignement s...(33%)",
           "free": true,
           "description": "Demande de renseignement sans contestation(4)",
           "children": [
             {
-              "name": "Autre motif de réclamati...(1)",
+              "name": "Autre motif de réclamation(25%)",
               "free": true,
               "description": "Autre motif de réclamation(1)",
               "children": [ ]
             },
             {
-              "name": "Dépôt ou retrait de docu...(2)",
+              "name": "Dépôt ou retrait de docume...(50%)",
               "free": true,
               "description": "Dépôt ou retrait de document(2)",
               "children": [
                 {
-                  "name": "Paiement (attestation, a...(1)",
+                  "name": "Paiement (attestation, aco...(50%)",
                   "free": true,
                   "description": "Paiement (attestation, acompte, demande de renseignement sur paiement, ...)(1)",
                   "children": [ ]
@@ -997,42 +997,42 @@
           ]
         },
         {
-          "name": "Dépôt ou retrait de docu...(5)",
+          "name": "Dépôt ou retrait de docume...(41%)",
           "free": true,
           "description": "Dépôt ou retrait de document(5)",
           "children": [
             {
-              "name": "Réclamation : absence de...(1)",
+              "name": "Réclamation : absence de p...(20%)",
               "free": true,
               "description": "Réclamation : absence de paiement(1)",
               "children": [
                 {
-                  "name": "Dépôt ou retrait de docu...(1)",
+                  "name": "Dépôt ou retrait de docume...(100%)",
                   "free": true,
                   "description": "Dépôt ou retrait de document(1)",
                   "children": [
                     {
-                      "name": "Réclamation : incompréhe...(1)",
+                      "name": "Réclamation : incompréhens...(100%)",
                       "free": true,
                       "description": "Réclamation : incompréhension décision caf(1)",
                       "children": [
                         {
-                          "name": "Demande de renseignement...(1)",
+                          "name": "Demande de renseignement s...(100%)",
                           "free": true,
                           "description": "Demande de renseignement sans contestation(1)",
                           "children": [
                             {
-                              "name": "Demande de renseignement...(1)",
+                              "name": "Demande de renseignement s...(100%)",
                               "free": true,
                               "description": "Demande de renseignement sans contestation(1)",
                               "children": [
                                 {
-                                  "name": "Dépôt ou retrait de docu...(1)",
+                                  "name": "Dépôt ou retrait de docume...(100%)",
                                   "free": true,
                                   "description": "Dépôt ou retrait de document(1)",
                                   "children": [
                                     {
-                                      "name": "Demande de renseignement...(1)",
+                                      "name": "Demande de renseignement s...(100%)",
                                       "free": true,
                                       "description": "Demande de renseignement sans contestation(1)",
                                       "children": [ ]
@@ -1050,28 +1050,28 @@
               ]
             },
             {
-              "name": "Demande de renseignement...(1)",
+              "name": "Demande de renseignement s...(20%)",
               "free": true,
               "description": "Demande de renseignement sans contestation(1)",
               "children": [ ]
             },
             {
-              "name": "Dépôt ou retrait de docu...(2)",
+              "name": "Dépôt ou retrait de docume...(40%)",
               "free": true,
               "description": "Dépôt ou retrait de document(2)",
               "children": [
                 {
-                  "name": "Demande de renseignement...(2)",
+                  "name": "Demande de renseignement s...(100%)",
                   "free": true,
                   "description": "Demande de renseignement sans contestation(2)",
                   "children": [
                     {
-                      "name": "Déclaration d'évenement ...(1)",
+                      "name": "Déclaration d'évenement ou...(50%)",
                       "free": true,
                       "description": "Déclaration d'évenement ou changement de situation(1)",
                       "children": [
                         {
-                          "name": "Demande de renseignement...(1)",
+                          "name": "Demande de renseignement s...(100%)",
                           "free": true,
                           "description": "Demande de renseignement sans contestation(1)",
                           "children": [ ]
@@ -1079,7 +1079,7 @@
                       ]
                     },
                     {
-                      "name": "Demande de renseignement...(1)",
+                      "name": "Demande de renseignement s...(50%)",
                       "free": true,
                       "description": "Demande de renseignement sans contestation(1)",
                       "children": [ ]
@@ -1091,52 +1091,52 @@
           ]
         },
         {
-          "name": "Réclamation : documents ...(1)",
+          "name": "Réclamation : documents no...(8%)",
           "free": true,
           "description": "Réclamation : documents non pris ou mal pris en compte(1)",
           "children": [
             {
-              "name": "Dépôt ou retrait de docu...(1)",
+              "name": "Dépôt ou retrait de docume...(100%)",
               "free": true,
               "description": "Dépôt ou retrait de document(1)",
               "children": [
                 {
-                  "name": "Demande de renseignement...(1)",
+                  "name": "Demande de renseignement s...(100%)",
                   "free": true,
                   "description": "Demande de renseignement sans contestation(1)",
                   "children": [
                     {
-                      "name": "Rendez-vous des droits/P...(1)",
+                      "name": "Rendez-vous des droits/Par...(100%)",
                       "free": true,
                       "description": "Rendez-vous des droits/Parcours spécifiques(1)",
                       "children": [
                         {
-                          "name": "Opérations particulières...(1)",
+                          "name": "Opérations particulières (...(100%)",
                           "free": true,
                           "description": "Opérations particulières (organis.forum, opération sur une prest. spécif ...)(1)",
                           "children": [
                             {
-                              "name": "Autre motif de réclamati...(1)",
+                              "name": "Autre motif de réclamation(100%)",
                               "free": true,
                               "description": "Autre motif de réclamation(1)",
                               "children": [
                                 {
-                                  "name": "Opérations particulières...(1)",
+                                  "name": "Opérations particulières (...(100%)",
                                   "free": true,
                                   "description": "Opérations particulières (organis.forum, opération sur une prest. spécif ...)(1)",
                                   "children": [
                                     {
-                                      "name": "Demande de renseignement...(1)",
+                                      "name": "Demande de renseignement s...(100%)",
                                       "free": true,
                                       "description": "Demande de renseignement sans contestation(1)",
                                       "children": [
                                         {
-                                          "name": "Demande de renseignement...(1)",
+                                          "name": "Demande de renseignement s...(100%)",
                                           "free": true,
                                           "description": "Demande de renseignement sans contestation(1)",
                                           "children": [
                                             {
-                                              "name": "Dépôt ou retrait de docu...(1)",
+                                              "name": "Dépôt ou retrait de docume...(100%)",
                                               "free": true,
                                               "description": "Dépôt ou retrait de document(1)",
                                               "children": [ ]
@@ -1160,47 +1160,47 @@
           ]
         },
         {
-          "name": "Autre motif de réclamati...(1)",
+          "name": "Autre motif de réclamation(8%)",
           "free": true,
           "description": "Autre motif de réclamation(1)",
           "children": [
             {
-              "name": "Demande de renseignement...(1)",
+              "name": "Demande de renseignement s...(100%)",
               "free": true,
               "description": "Demande de renseignement sans contestation(1)",
               "children": [
                 {
-                  "name": "Dépôt ou retrait de docu...(1)",
+                  "name": "Dépôt ou retrait de docume...(100%)",
                   "free": true,
                   "description": "Dépôt ou retrait de document(1)",
                   "children": [
                     {
-                      "name": "Demande de renseignement...(1)",
+                      "name": "Demande de renseignement s...(100%)",
                       "free": true,
                       "description": "Demande de renseignement sans contestation(1)",
                       "children": [
                         {
-                          "name": "Demande de renseignement...(1)",
+                          "name": "Demande de renseignement s...(100%)",
                           "free": true,
                           "description": "Demande de renseignement sans contestation(1)",
                           "children": [
                             {
-                              "name": "Demande de renseignement...(1)",
+                              "name": "Demande de renseignement s...(100%)",
                               "free": true,
                               "description": "Demande de renseignement sans contestation(1)",
                               "children": [
                                 {
-                                  "name": "Demande de renseignement...(1)",
+                                  "name": "Demande de renseignement s...(100%)",
                                   "free": true,
                                   "description": "Demande de renseignement sans contestation(1)",
                                   "children": [
                                     {
-                                      "name": "Demande de renseignement...(1)",
+                                      "name": "Demande de renseignement s...(100%)",
                                       "free": true,
                                       "description": "Demande de renseignement sans contestation(1)",
                                       "children": [
                                         {
-                                          "name": "Demande de renseignement...(1)",
+                                          "name": "Demande de renseignement s...(100%)",
                                           "free": true,
                                           "description": "Demande de renseignement sans contestation(1)",
                                           "children": [ ]
@@ -1222,12 +1222,12 @@
           ]
         },
         {
-          "name": "Instruction administrati...(1)",
+          "name": "Instruction administrative...(8%)",
           "free": true,
           "description": "Instruction administrative RSA ou instruction abandonnée RMI (DOM)(1)",
           "children": [
             {
-              "name": "Demande de renseignement...(1)",
+              "name": "Demande de renseignement s...(100%)",
               "free": true,
               "description": "Demande de renseignement sans contestation(1)",
               "children": [ ]
@@ -1237,12 +1237,12 @@
       ]
     },
     {
-      "name": "Opérations particulières...(1)",
+      "name": "Opérations particulières (...(0%)",
       "free": true,
       "description": "Opérations particulières (organis.forum, opération sur une prest. spécif ...)(1)",
       "children": [
         {
-          "name": "Demande de renseignement...(1)",
+          "name": "Demande de renseignement s...(100%)",
           "free": true,
           "description": "Demande de renseignement sans contestation(1)",
           "children": [ ]
@@ -1250,32 +1250,32 @@
       ]
     },
     {
-      "name": "Réclamation : absence de...(1)",
+      "name": "Réclamation : absence de r...(0%)",
       "free": true,
       "description": "Réclamation : absence de réponse(1)",
       "children": [
         {
-          "name": "Dépôt ou retrait de docu...(1)",
+          "name": "Dépôt ou retrait de docume...(100%)",
           "free": true,
           "description": "Dépôt ou retrait de document(1)",
           "children": [
             {
-              "name": "Déclaration d'évenement ...(1)",
+              "name": "Déclaration d'évenement ou...(100%)",
               "free": true,
               "description": "Déclaration d'évenement ou changement de situation(1)",
               "children": [
                 {
-                  "name": "Demande de renseignement...(1)",
+                  "name": "Demande de renseignement s...(100%)",
                   "free": true,
                   "description": "Demande de renseignement sans contestation(1)",
                   "children": [
                     {
-                      "name": "Demande de renseignement...(1)",
+                      "name": "Demande de renseignement s...(100%)",
                       "free": true,
                       "description": "Demande de renseignement sans contestation(1)",
                       "children": [
                         {
-                          "name": "Instruction administrati...(1)",
+                          "name": "Instruction administrative...(100%)",
                           "free": true,
                           "description": "Instruction administrative RSA ou instruction abandonnée RMI (DOM)(1)",
                           "children": [ ]
@@ -1291,52 +1291,52 @@
       ]
     },
     {
-      "name": "Instruction administrati...(1)",
+      "name": "Instruction administrative...(0%)",
       "free": true,
       "description": "Instruction administrative RSA ou instruction abandonnée RMI (DOM)(1)",
       "children": [
         {
-          "name": "Dépôt ou retrait de docu...(1)",
+          "name": "Dépôt ou retrait de docume...(100%)",
           "free": true,
           "description": "Dépôt ou retrait de document(1)",
           "children": [
             {
-              "name": "Demande de renseignement...(1)",
+              "name": "Demande de renseignement s...(100%)",
               "free": true,
               "description": "Demande de renseignement sans contestation(1)",
               "children": [
                 {
-                  "name": "Demande de renseignement...(1)",
+                  "name": "Demande de renseignement s...(100%)",
                   "free": true,
                   "description": "Demande de renseignement sans contestation(1)",
                   "children": [
                     {
-                      "name": "Demande de renseignement...(1)",
+                      "name": "Demande de renseignement s...(100%)",
                       "free": true,
                       "description": "Demande de renseignement sans contestation(1)",
                       "children": [
                         {
-                          "name": "Demande de renseignement...(1)",
+                          "name": "Demande de renseignement s...(100%)",
                           "free": true,
                           "description": "Demande de renseignement sans contestation(1)",
                           "children": [
                             {
-                              "name": "Demande de renseignement...(1)",
+                              "name": "Demande de renseignement s...(100%)",
                               "free": true,
                               "description": "Demande de renseignement sans contestation(1)",
                               "children": [
                                 {
-                                  "name": "Demande de renseignement...(1)",
+                                  "name": "Demande de renseignement s...(100%)",
                                   "free": true,
                                   "description": "Demande de renseignement sans contestation(1)",
                                   "children": [
                                     {
-                                      "name": "Demande de renseignement...(1)",
+                                      "name": "Demande de renseignement s...(100%)",
                                       "free": true,
                                       "description": "Demande de renseignement sans contestation(1)",
                                       "children": [
                                         {
-                                          "name": "Demande de renseignement...(1)",
+                                          "name": "Demande de renseignement s...(100%)",
                                           "free": true,
                                           "description": "Demande de renseignement sans contestation(1)",
                                           "children": [ ]
@@ -1360,27 +1360,27 @@
       ]
     },
     {
-      "name": "Déclaration d'évenement ...(8)",
+      "name": "Déclaration d'évenement ou...(5%)",
       "free": true,
       "description": "Déclaration d'évenement ou changement de situation(8)",
       "children": [
         {
-          "name": "Demande de renseignement...(2)",
+          "name": "Demande de renseignement s...(25%)",
           "free": true,
           "description": "Demande de renseignement sans contestation(2)",
           "children": [
             {
-              "name": "Demande de renseignement...(2)",
+              "name": "Demande de renseignement s...(100%)",
               "free": true,
               "description": "Demande de renseignement sans contestation(2)",
               "children": [
                 {
-                  "name": "Demande de renseignement...(2)",
+                  "name": "Demande de renseignement s...(100%)",
                   "free": true,
                   "description": "Demande de renseignement sans contestation(2)",
                   "children": [
                     {
-                      "name": "Demande de renseignement...(1)",
+                      "name": "Demande de renseignement s...(50%)",
                       "free": true,
                       "description": "Demande de renseignement sans contestation(1)",
                       "children": [ ]
@@ -1392,27 +1392,27 @@
           ]
         },
         {
-          "name": "Dépôt ou retrait de docu...(1)",
+          "name": "Dépôt ou retrait de docume...(12%)",
           "free": true,
           "description": "Dépôt ou retrait de document(1)",
           "children": [
             {
-              "name": "Demande de renseignement...(1)",
+              "name": "Demande de renseignement s...(100%)",
               "free": true,
               "description": "Demande de renseignement sans contestation(1)",
               "children": [
                 {
-                  "name": "Dépôt ou retrait de docu...(1)",
+                  "name": "Dépôt ou retrait de docume...(100%)",
                   "free": true,
                   "description": "Dépôt ou retrait de document(1)",
                   "children": [
                     {
-                      "name": "Demande de renseignement...(1)",
+                      "name": "Demande de renseignement s...(100%)",
                       "free": true,
                       "description": "Demande de renseignement sans contestation(1)",
                       "children": [
                         {
-                          "name": "Demande de renseignement...(1)",
+                          "name": "Demande de renseignement s...(100%)",
                           "free": true,
                           "description": "Demande de renseignement sans contestation(1)",
                           "children": [ ]
@@ -1428,22 +1428,22 @@
       ]
     },
     {
-      "name": "Réclamation : incompréhe...(3)",
+      "name": "Réclamation : incompréhens...(2%)",
       "free": true,
       "description": "Réclamation : incompréhension décision caf(3)",
       "children": [
         {
-          "name": "Demande de renseignement...(2)",
+          "name": "Demande de renseignement s...(66%)",
           "free": true,
           "description": "Demande de renseignement sans contestation(2)",
           "children": [
             {
-              "name": "Réclamation : incompréhe...(1)",
+              "name": "Réclamation : incompréhens...(50%)",
               "free": true,
               "description": "Réclamation : incompréhension décision caf(1)",
               "children": [
                 {
-                  "name": "Demande de renseignement...(1)",
+                  "name": "Demande de renseignement s...(100%)",
                   "free": true,
                   "description": "Demande de renseignement sans contestation(1)",
                   "children": [ ]
@@ -1455,12 +1455,12 @@
       ]
     },
     {
-      "name": "Rendez-vous des droits/I...(2)",
+      "name": "Rendez-vous des droits/Ins...(1%)",
       "free": true,
       "description": "Rendez-vous des droits/Instruction RSA(2)",
       "children": [
         {
-          "name": "Demande de renseignement...(1)",
+          "name": "Demande de renseignement s...(50%)",
           "free": true,
           "description": "Demande de renseignement sans contestation(1)",
           "children": [ ]
@@ -1468,27 +1468,27 @@
       ]
     },
     {
-      "name": "Paiement (attestation, a...(1)",
+      "name": "Paiement (attestation, aco...(0%)",
       "free": true,
       "description": "Paiement (attestation, acompte, demande de renseignement sur paiement, ...)(1)",
       "children": [
         {
-          "name": "Paiement (attestation, a...(1)",
+          "name": "Paiement (attestation, aco...(100%)",
           "free": true,
           "description": "Paiement (attestation, acompte, demande de renseignement sur paiement, ...)(1)",
           "children": [
             {
-              "name": "Demande de renseignement...(1)",
+              "name": "Demande de renseignement s...(100%)",
               "free": true,
               "description": "Demande de renseignement sans contestation(1)",
               "children": [
                 {
-                  "name": "Demande de renseignement...(1)",
+                  "name": "Demande de renseignement s...(100%)",
                   "free": true,
                   "description": "Demande de renseignement sans contestation(1)",
                   "children": [
                     {
-                      "name": "Demande de renseignement...(1)",
+                      "name": "Demande de renseignement s...(100%)",
                       "free": true,
                       "description": "Demande de renseignement sans contestation(1)",
                       "children": [ ]
@@ -1502,27 +1502,27 @@
       ]
     },
     {
-      "name": "Réclamation : absence de...(1)",
+      "name": "Réclamation : absence de p...(0%)",
       "free": true,
       "description": "Réclamation : absence de paiement(1)",
       "children": [
         {
-          "name": "Demande de renseignement...(1)",
+          "name": "Demande de renseignement s...(100%)",
           "free": true,
           "description": "Demande de renseignement sans contestation(1)",
           "children": [
             {
-              "name": "Demande de renseignement...(1)",
+              "name": "Demande de renseignement s...(100%)",
               "free": true,
               "description": "Demande de renseignement sans contestation(1)",
               "children": [
                 {
-                  "name": "Demande de renseignement...(1)",
+                  "name": "Demande de renseignement s...(100%)",
                   "free": true,
                   "description": "Demande de renseignement sans contestation(1)",
                   "children": [
                     {
-                      "name": "Demande de renseignement...(1)",
+                      "name": "Demande de renseignement s...(100%)",
                       "free": true,
                       "description": "Demande de renseignement sans contestation(1)",
                       "children": [ ]
@@ -1536,87 +1536,87 @@
       ]
     },
     {
-      "name": "Rendez-vous des droits/A...(1)",
+      "name": "Rendez-vous des droits/Aut...(0%)",
       "free": true,
       "description": "Rendez-vous des droits/Autres (accueil sur RV, orientation partenaire, …)(1)",
       "children": [
         {
-          "name": "Réclamation : absence de...(1)",
+          "name": "Réclamation : absence de p...(100%)",
           "free": true,
           "description": "Réclamation : absence de paiement(1)",
           "children": [
             {
-              "name": "Demande de renseignement...(1)",
+              "name": "Demande de renseignement s...(100%)",
               "free": true,
               "description": "Demande de renseignement sans contestation(1)",
               "children": [
                 {
-                  "name": "Déclaration d'évenement ...(1)",
+                  "name": "Déclaration d'évenement ou...(100%)",
                   "free": true,
                   "description": "Déclaration d'évenement ou changement de situation(1)",
                   "children": [
                     {
-                      "name": "Dépôt ou retrait de docu...(1)",
+                      "name": "Dépôt ou retrait de docume...(100%)",
                       "free": true,
                       "description": "Dépôt ou retrait de document(1)",
                       "children": [
                         {
-                          "name": "Paiement (attestation, a...(1)",
+                          "name": "Paiement (attestation, aco...(100%)",
                           "free": true,
                           "description": "Paiement (attestation, acompte, demande de renseignement sur paiement, ...)(1)",
                           "children": [
                             {
-                              "name": "Demande de renseignement...(1)",
+                              "name": "Demande de renseignement s...(100%)",
                               "free": true,
                               "description": "Demande de renseignement sans contestation(1)",
                               "children": [
                                 {
-                                  "name": "Opérations particulières...(1)",
+                                  "name": "Opérations particulières (...(100%)",
                                   "free": true,
                                   "description": "Opérations particulières (organis.forum, opération sur une prest. spécif ...)(1)",
                                   "children": [
                                     {
-                                      "name": "Paiement (attestation, a...(1)",
+                                      "name": "Paiement (attestation, aco...(100%)",
                                       "free": true,
                                       "description": "Paiement (attestation, acompte, demande de renseignement sur paiement, ...)(1)",
                                       "children": [
                                         {
-                                          "name": "Demande de renseignement...(1)",
+                                          "name": "Demande de renseignement s...(100%)",
                                           "free": true,
                                           "description": "Demande de renseignement sans contestation(1)",
                                           "children": [
                                             {
-                                              "name": "Demande de renseignement...(1)",
+                                              "name": "Demande de renseignement s...(100%)",
                                               "free": true,
                                               "description": "Demande de renseignement sans contestation(1)",
                                               "children": [
                                                 {
-                                                  "name": "Réclamation : absence de...(1)",
+                                                  "name": "Réclamation : absence de p...(100%)",
                                                   "free": true,
                                                   "description": "Réclamation : absence de paiement(1)",
                                                   "children": [
                                                     {
-                                                      "name": "Demande de renseignement...(1)",
+                                                      "name": "Demande de renseignement s...(100%)",
                                                       "free": true,
                                                       "description": "Demande de renseignement sans contestation(1)",
                                                       "children": [
                                                         {
-                                                          "name": "Contestation (sur le mon...(1)",
+                                                          "name": "Contestation (sur le monta...(100%)",
                                                           "free": true,
                                                           "description": "Contestation (sur le montant du droit, à propos d'une erreur, délai, ...)(1)",
                                                           "children": [
                                                             {
-                                                              "name": "Demande de renseignement...(1)",
+                                                              "name": "Demande de renseignement s...(100%)",
                                                               "free": true,
                                                               "description": "Demande de renseignement sans contestation(1)",
                                                               "children": [
                                                                 {
-                                                                  "name": "Demande de renseignement...(1)",
+                                                                  "name": "Demande de renseignement s...(100%)",
                                                                   "free": true,
                                                                   "description": "Demande de renseignement sans contestation(1)",
                                                                   "children": [
                                                                     {
-                                                                      "name": "Demande de renseignement...(1)",
+                                                                      "name": "Demande de renseignement s...(100%)",
                                                                       "free": true,
                                                                       "description": "Demande de renseignement sans contestation(1)",
                                                                       "children": [ ]
