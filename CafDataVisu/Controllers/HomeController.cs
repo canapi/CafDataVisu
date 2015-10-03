@@ -19,6 +19,9 @@ namespace CafDataVisu.Controllers
     {
         public ActionResult Index()
         {
+            AuthenticationResult token = (HttpContext.Cache["authResult"]) as AuthenticationResult;
+            if (token == null)
+                return RedirectToAction("Index", "Admin");
             return View();
         }
 
