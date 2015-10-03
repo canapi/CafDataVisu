@@ -1060,6 +1060,7 @@
     <Content Include="plugins\input-mask\phone-codes\phone-be.json" />
     <Content Include="plugins\input-mask\phone-codes\phone-codes.json" />
     <Content Include="data.json" />
+    <Content Include="dataweb.json" />
     <None Include="Properties\PublishProfiles\CafDataScopit.pubxml" />
     <None Include="Properties\PublishProfiles\CafDataVisu.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -1113,6 +1114,7 @@
     <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\Home\Parcours.cshtml" />
     <Content Include="Views\Admin\ListTiles.cshtml" />
+    <Content Include="Views\Home\ParcoursWeb.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

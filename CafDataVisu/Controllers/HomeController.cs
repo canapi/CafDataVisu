@@ -27,10 +27,25 @@ namespace CafDataVisu.Controllers
             return View();
         }
 
+        public ActionResult ParcoursWeb()
+        {
+            return View();
+        }
+
         public ContentResult GetData()
         {
             string ret;
             using (StreamReader sr = new StreamReader(Server.MapPath("~/data.json")))
+            {
+                ret = sr.ReadToEnd();
+            }
+            return Content(ret, "application/json");
+        }
+
+        public ContentResult GetDataWeb()
+        {
+            string ret;
+            using (StreamReader sr = new StreamReader(Server.MapPath("~/dataweb.json")))
             {
                 ret = sr.ReadToEnd();
             }
