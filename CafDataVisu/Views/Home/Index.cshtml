@@ -23,81 +23,94 @@
 
 <section class="content">
 
-    <iframe height="300" width="300" data-tileId="e92586e8-334f-4161-afe4-0cd685c3ce33" data-dashboardId="9db66a73-6312-40db-89f5-2a30422c82ec" data-groupId="c29acdcf-23b1-4af1-8764-024b5d2c08ea"></iframe>
-    <iframe height="400" width="400" data-tileId="75346935-8e19-404c-973c-1ef6ab12fe84" data-dashboardId="7fc33f40-479c-4e21-bdbc-3a036abc1675" data-groupId="c29acdcf-23b1-4af1-8764-024b5d2c08ea"></iframe>
-    <iframe height="300" width="500" data-tileId="60b4133d-da8b-4bee-8dc9-f1d98d84cad2" data-dashboardId="6616e09f-6165-4c96-b5f0-d255eecfeca8" data-groupId="c29acdcf-23b1-4af1-8764-024b5d2c08ea"></iframe>
-    
+
+    <div class="row">
+        <div class="col-md-4">
+            <iframe height="400" width="400" data-tileId="e92586e8-334f-4161-afe4-0cd685c3ce33" data-dashboardId="9db66a73-6312-40db-89f5-2a30422c82ec" data-groupId="c29acdcf-23b1-4af1-8764-024b5d2c08ea"></iframe>
+        </div>
+        <div class="col-md-4">
+            <iframe height="400" width="400" data-tileId="60b4133d-da8b-4bee-8dc9-f1d98d84cad2" data-dashboardId="6616e09f-6165-4c96-b5f0-d255eecfeca8" data-groupId="c29acdcf-23b1-4af1-8764-024b5d2c08ea"></iframe>
+        </div>
+        <div class="col-md-4">
+            <iframe height="400" width="400" data-tileId="75346935-8e19-404c-973c-1ef6ab12fe84" data-dashboardId="7fc33f40-479c-4e21-bdbc-3a036abc1675" data-groupId="c29acdcf-23b1-4af1-8764-024b5d2c08ea"></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <img src="https://www.etalab.gouv.fr/wp-content/uploads/2015/09/Capture-647x393.png" class="img-responsive center-block" />
+        </div>
+    </div>
 </section>
 
 @section scripts{
-    
-<script>
 
-    $(document).ready(function () {
-        $("iframe[data-tileId]")
-            .each(function (index) {
-                var frm = $(this)[0];
-                var tileId = $(this).data("tileid");
-                var dashboardId = $(this).data("dashboardid");
-                var groupId = $(this).data("groupid");
-                var height = frm.height;
-                var width = frm.width;
-                $.ajax({
-                    url: '/api/PowerBiApi?tileId=' + tileId + '&dashboardId=' + dashboardId + '&groupId=' + groupId,
-                    type: 'GET',
-                    dataType: 'json',
-                    success: function (data) {
-                        var jsonObj = JSON.parse(data);
-                        frm.onload = function () { postActionLoadTile(frm, jsonObj.accessToken, height, width); }
-                        frm.src = jsonObj.tileurl;
-                    },
-                    error: function (x, y, z) {
-                        alert(x + '\n' + y + '\n' + z);
-                    }
+    <script>
+
+        $(document).ready(function () {
+            $("iframe[data-tileId]")
+                .each(function (index) {
+                    var frm = $(this)[0];
+                    var tileId = $(this).data("tileid");
+                    var dashboardId = $(this).data("dashboardid");
+                    var groupId = $(this).data("groupid");
+                    var height = frm.height;
+                    var width = frm.width;
+                    $.ajax({
+                        url: '/api/PowerBiApi?tileId=' + tileId + '&dashboardId=' + dashboardId + '&groupId=' + groupId,
+                        type: 'GET',
+                        dataType: 'json',
+                        success: function (data) {
+                            var jsonObj = JSON.parse(data);
+                            frm.onload = function () { postActionLoadTile(frm, jsonObj.accessToken, height, width); }
+                            frm.src = jsonObj.tileurl;
+                        },
+                        error: function (x, y, z) {
+                            alert(x + '\n' + y + '\n' + z);
+                        }
+                    });
                 });
-            });
-        // listen for message to receive tile click messages.
-        if (window.addEventListener) {
-            window.addEventListener("message", receiveMessage, false);
-        } else {
-            window.attachEvent("onmessage", receiveMessage);
+            // listen for message to receive tile click messages.
+            if (window.addEventListener) {
+                window.addEventListener("message", receiveMessage, false);
+            } else {
+                window.attachEvent("onmessage", receiveMessage);
+            }
+
+        });
+
+        function openPbi(groupId, reportId) {
+            // https://app.powerbi.com/groups/c29acdcf-23b1-4af1-8764-024b5d2c08ea/reports/733c6ddf-3e76-4a6f-90ff-3c05e27263a0
+            var url = "https://app.powerbi.com/groups/" + groupId + "/reports/" + reportId;
+            window.open(url);
         }
-        
-    });
 
-    function openPbi(groupId, reportId) {
-        // https://app.powerbi.com/groups/c29acdcf-23b1-4af1-8764-024b5d2c08ea/reports/733c6ddf-3e76-4a6f-90ff-3c05e27263a0
-        var url = "https://app.powerbi.com/groups/" + groupId + "/reports/" + reportId;
-        window.open(url);
-    }
-
-    function receiveMessage(event) {
-        debugger;
-        if (event.data) {
-            try {
-                messageData = JSON.parse(event.data);
-                if (messageData.event === "tileClicked") {
-                    window.open(messageData.navigationUrl);
+        function receiveMessage(event) {
+            debugger;
+            if (event.data) {
+                try {
+                    messageData = JSON.parse(event.data);
+                    if (messageData.event === "tileClicked") {
+                        window.open(messageData.navigationUrl);
+                    }
+                }
+                catch (e) {
+                    // In a production app, handle exception
                 }
             }
-            catch (e) {
-                // In a production app, handle exception
-            }
         }
-    }
 
-    function postActionLoadTile(ifrm, accessToken, height, width) {
+        function postActionLoadTile(ifrm, accessToken, height, width) {
 
-        if ("" === accessToken)
-            return;
+            if ("" === accessToken)
+                return;
 
-        // construct the push message structure
-        var m = { action: "loadTile", accessToken: accessToken, height: height, width: width};
-        var message = JSON.stringify(m);
+            // construct the push message structure
+            var m = { action: "loadTile", accessToken: accessToken, height: height, width: width };
+            var message = JSON.stringify(m);
 
-        // push the message.
-        ifrm.contentWindow.postMessage(message, "*");
-    }
-</script>
+            // push the message.
+            ifrm.contentWindow.postMessage(message, "*");
+        }
+    </script>
 
 }
