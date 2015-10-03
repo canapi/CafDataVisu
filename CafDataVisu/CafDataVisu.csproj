@@ -1116,6 +1116,7 @@
     <Content Include="Views\Home\Parcours.cshtml" />
     <Content Include="Views\Admin\ListTiles.cshtml" />
     <Content Include="Views\Home\ParcoursWeb.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
