@@ -162,8 +162,10 @@ namespace CafDataVisu.Controllers
                     Rate = allocCount * 100 / parent.AllocataireCount,
                     Depth = parent.Depth+1
                 };
-                if(member.Depth <= 10)
+                if (member.Depth <= 10)
                     member.Children = GetHierarchyFromHierarchyRowList(member);
+                else
+                    member.Children = new List<HierarchyMember>();
 
                 res.Add(member);
             }
