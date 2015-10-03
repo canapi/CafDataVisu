@@ -17,11 +17,12 @@
 <section class="content row">
     <div class="col-md-8">
         <div id="sequence"></div>
+        <div id="explanation" style="visibility: hidden">
+            <span id="percentage"></span><br/>
+            de visites commencent par la sequence <em>rubrique / sous rubrique</em> suivantes.
+        </div>
         <div id="chart">
-            <div id="explanation" style="visibility: hidden;">
-                <span id="percentage"></span><br />
-                de visites commencent par la sequence <em>rubrique / sous rubrique</em> suivantes.
-            </div>
+            
         </div>
     </div>
     <div class="col-md-4">
@@ -112,7 +113,7 @@
 
         // Breadcrumb dimensions: width, height, spacing, width of tip/tail.
         var b = {
-            w: 75,
+            w: 155,
             h: 30,
             s: 3,
             t: 10
@@ -120,12 +121,27 @@
 
         // Mapping of step names to colors.
         var colors = {
-            "a": "#5687d1",
-            "b": "#7b615c",
-            "c": "#de783b",
-            "account": "#6ab975",
-            "other": "#a173d1",
-            "end": "#bbbbbb"
+            "Accès dossier allocataire (Mon Compte) WEB": "#5687d1"
+            , "Téléprocédure Déclaration de ressources WEB": "#7b615c"
+            , "Simulation Revenu Solidarité Active et téléprocédure DTRSA WEB": "#de783b"
+            , "Simulation PAJE WEB": "#6ab975"
+            , "Téléprocédure Changement ou confirmation situation WEB": "#a173d1"
+            , "Simulation logement WEB": "#bbbbbb"
+            , "Téléprocédure Aide au logement WEB": "#4C94FF"
+            , "Courriels WEB": "#4C607F"
+            , "Téléprocédure Complément mode de garde Paje WEB": "#00CC9F"
+            , "PRIWEB": "#50007F"
+            , "Téléprocédure Déclaration conservation ou non logement pendant période estivale WEB": "#FF683B"
+            , "Demande code confidentiel WEB": "#CCBE26"
+            , "Téléprocédure Déclaration ressources Trimestrielles AAH WEB": "#8BFF2F"
+            , "Carte enfant famille WEB (accès uniquement site SNCF)": "#187F3D"
+            , "Téléprocédure Certificat de scolarité": "#AAFFEF"
+            //"a": "#5687d1",
+            //"b": "#7b615c",
+            //"c": "#de783b",
+            //"account": "#6ab975",
+            //"other": "#a173d1",
+            //"end": "#bbbbbb"
         };
 
         // Total size of all segments; we set this later, after loading the data.
@@ -203,7 +219,7 @@
                 .attr("display", function(d) { return d.depth ? null : "none"; })
                 .attr("d", arc)
                 .attr("fill-rule", "evenodd")
-                .style("fill", function(d) { return colors[d.name]; })
+                .style("fill", function (d) { return colors[d.name] == null ? pastelColors() : colors[d.name]; })
                 .style("opacity", 1)
                 .on("mouseover", mouseover);
 
@@ -213,6 +229,13 @@
             // Get total size of the tree = value of root node from partition.
             totalSize = path.node().__data__.value;
         };
+
+        function pastelColors() {
+            var r = (Math.round(Math.random() * 127) + 127).toString(16);
+            var g = (Math.round(Math.random() * 127) + 127).toString(16);
+            var b = (Math.round(Math.random() * 127) + 127).toString(16);
+            return '#' + r + g + b;
+        }
 
         // Fade all but the current sequence, and show it in the breadcrumb trail.
         function mouseover(d) {
@@ -325,7 +348,9 @@
                 .attr("y", b.h / 2)
                 .attr("dy", "0.35em")
                 .attr("text-anchor", "middle")
-                .text(function(d) { return d.name; });
+                .text(function(d) {
+                    return d.name.substr(0, 20);
+                });
 
             // Set position for entering and updating nodes.
             g.attr("transform", function(d, i) {
