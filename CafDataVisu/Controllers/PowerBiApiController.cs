@@ -24,7 +24,6 @@ namespace CafDataVisu.Controllers
 
             AuthenticationResult token = (HttpContext.Current.Cache["authResult"]) as AuthenticationResult;
 
-            //string dashId = "0c0a46c6-31bd-4cdd-84ac-f6fb153d150b";
             using (var httpClient = new HttpClient { BaseAddress = baseAddress })
             {
                 httpClient.DefaultRequestHeaders.TryAddWithoutValidation("authorization", "Bearer " + token.AccessToken);
@@ -44,10 +43,7 @@ namespace CafDataVisu.Controllers
                 tileUrl = dyn.embedUrl;
 
             }
-
             return JsonConvert.SerializeObject(new { tileurl = tileUrl, accessToken = token.AccessToken });
-
         }
-
     }
 }

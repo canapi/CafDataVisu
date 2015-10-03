@@ -1,0 +1,41 @@
+﻿@model System.Collections.Generic.List<CafDataVisu.Models.DashBoard>
+
+@{
+    ViewBag.Title = "title";
+}
+
+
+@foreach (var d in Model)
+{
+    <div>
+        <div>
+            <b>Group</b>
+        </div>
+        <ul>
+            <li>@d.GroupName <span>@d.GroupId</span></li>
+        </ul>
+    </div>
+
+    <div>
+        <div>
+            <b>Dashboard</b>
+        </div>
+        <ul>
+            <li>@d.Name <span>@d.Id</span></li>
+        </ul>
+    </div>
+
+    <div>
+        <div>
+            <b>Tiles</b>
+        </div>
+        <ul>
+            @foreach (var x in @d.Tiles)
+            {
+                <li>@x.Name <span>@x.Id</span></li>
+            }
+        </ul>
+    </div>
+
+    <hr style="border: solid red 1px"/>
+}

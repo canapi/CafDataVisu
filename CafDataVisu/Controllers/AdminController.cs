@@ -171,8 +171,8 @@ namespace CafDataVisu.Controllers
 
                 for (int i = 0; i < dyn.value.Count; i++)
                 {
-                    if (dyn.value[0].name == groupName)
-                        groupId = dyn.value[0].id;
+                    if (dyn.value[i].name == groupName)
+                        groupId = dyn.value[i].id;
                 }
             }
 

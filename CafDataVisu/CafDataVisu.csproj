@@ -1110,9 +1110,9 @@
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <Content Include="Views\Admin\Redirect.cshtml" />
     <Content Include="Views\Admin\GetTile.cshtml" />
-    <Content Include="Views\Admin\ListTiles.cshtml" />
     <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\Home\Parcours.cshtml" />
+    <Content Include="Views\Admin\ListTiles.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

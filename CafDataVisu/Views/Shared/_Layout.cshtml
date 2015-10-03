@@ -302,9 +302,10 @@
         <!-- Add the sidebar's background. This div must be placed
              immediately after the control sidebar -->
         <div class="control-sidebar-bg"></div>
-    </div><!-- ./wrapper -->
+</div><!-- ./wrapper -->
+
     <!-- jQuery 2.1.4 -->
-    <script src="~/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+    <script src="~/plugins/jQuery/jQuery-2.1.4.min.js"></script>    
     <!-- Bootstrap 3.3.5 -->
     <script src="~/bootstrap/js/bootstrap.min.js"></script>
     <!-- FastClick -->
@@ -318,7 +319,9 @@
     <script src="~/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
     <!-- SlimScroll 1.3.0 -->
     <script src="~/plugins/slimScroll/jquery.slimscroll.min.js"></script>
-    <!-- ChartJS 1.0.1 -->
+<!-- ChartJS 1.0.1 -->
     <script src="~/plugins/chartjs/Chart.min.js"></script>
+
+    @RenderSection("scripts", false)
 </body>
 </html>
