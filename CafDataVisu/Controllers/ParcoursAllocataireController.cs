@@ -37,7 +37,8 @@ namespace CafDataVisu.Controllers
         public List<HierarchyMember> Children { get; set; }
         [JsonIgnore]
         public int Rate { get; set; }
-
+        [JsonIgnore]
+        public int Depth { get; set; }
         public string name {
             get{
                 if(NodeName.Length>27)
@@ -90,7 +91,7 @@ namespace CafDataVisu.Controllers
             using (var conn = new SqlConnection(connectionString))
             {
                 SqlCommand cmd = conn.CreateCommand();
-                cmd.CommandText = "SELECT [Nb] ,LEN([PathMod]) -LEN(REPLACE([PathMod], '|', '')) as nbSep   ,[PathMod]    FROM     [Hackathon].[dbo].[FAB]      f";
+                cmd.CommandText = "SELECT [Nb] ,LEN([PathMod]) -LEN(REPLACE([PathMod], '|', '')) as nbSep   ,[PathMod]    FROM     [Hackathon].[dbo].[FAB2]      f";
 
                 conn.Open();
 
@@ -113,7 +114,8 @@ namespace CafDataVisu.Controllers
             {
                 NodeName = "Tous les alocataires",
                 PathFromStart = string.Empty,
-                AllocataireCount = rows.Sum(c => c.Nb)
+                AllocataireCount = rows.Sum(c => c.Nb),
+                Depth = 0
             };
 
             hierarchy.Children = GetHierarchyFromHierarchyRowList(hierarchy);
@@ -157,10 +159,11 @@ namespace CafDataVisu.Controllers
                     AllocataireCount = allocCount,
                     NodeName = child,
                     PathFromStart = parentPath + child,
-                    Rate = allocCount * 100 / parent.AllocataireCount
+                    Rate = allocCount * 100 / parent.AllocataireCount,
+                    Depth = parent.Depth+1
                 };
-
-                member.Children = GetHierarchyFromHierarchyRowList(member);
+                if(member.Depth <= 10)
+                    member.Children = GetHierarchyFromHierarchyRowList(member);
 
                 res.Add(member);
             }
