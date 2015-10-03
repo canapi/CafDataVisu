@@ -1061,6 +1061,7 @@
     <Content Include="plugins\input-mask\phone-codes\phone-codes.json" />
     <Content Include="data.json" />
     <Content Include="dataweb.json" />
+    <Content Include="dataweb.csv" />
     <None Include="Properties\PublishProfiles\CafDataScopit.pubxml" />
     <None Include="Properties\PublishProfiles\CafDataVisu.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />

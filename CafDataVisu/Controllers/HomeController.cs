@@ -48,11 +48,11 @@ namespace CafDataVisu.Controllers
         public ContentResult GetDataWeb()
         {
             string ret;
-            using (StreamReader sr = new StreamReader(Server.MapPath("~/dataweb.json")))
+            using (StreamReader sr = new StreamReader(Server.MapPath("~/dataweb.csv")))
             {
                 ret = sr.ReadToEnd();
             }
-            return Content(ret, "application/json");
+            return Content(ret, "text/csv");
         }
     }
 }
